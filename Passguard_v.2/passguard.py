@@ -163,7 +163,7 @@ def on_hash():
 root = tk.Tk()
 root.title("PassGuard - Password Manager")
 root.geometry("950x650")
-root.config(bg="#0f172a")  # Modern dark slate background
+root.config(bg="#0f172a")
 root.resizable(False, False)
 header_frame = tk.Frame(root, bg="#0f172a")
 header_frame.pack(fill="x", padx=20, pady=(20, 10))
